@@ -1,0 +1,55 @@
+.cal-container{
+      width: 350px;
+      margin: 50px auto;
+      background-color: #5E5F65;
+      padding: 20px;
+      border-radius: 12px;
+      border: 2px solid rgb(0, 0, 0);
+}
+input{
+    width: 100%;
+    padding: 25px 25px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: #515257;
+}
+.row{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+button{
+     width: 70px;
+     height: 50px;
+     font-size: 30px;
+     font-weight: bolder;
+     border-radius: 5px;
+     border: none;
+}
+.equal{
+    background-color: rgb(5, 163, 0);
+}
+.clear{
+    background-color: tomato;
+}
+.del{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+body>h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: crimson;
+    font-size: 50px;
+    margin: 20px 535px;
+}
+body>h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(27, 112, 6);
+    font-size: 30px;
+    margin: 20px 560px;
+}
